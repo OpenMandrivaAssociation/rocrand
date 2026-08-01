@@ -2,7 +2,7 @@
 
 Name:		rocrand
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	HIP random number generation library
 License:	MIT AND BSD-3-Clause
 Group:		System/Libraries
@@ -19,7 +19,6 @@ BuildRequires:	clang-tools
 BuildRequires:	rocm-hip-devel
 BuildRequires:	clang >= %{rocm_llvm_maj_ver}
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 rocRAND host/device RNGs for HIP. Built for %%%{rocm_gpu_targets} including gfx803 on OM.
