@@ -1,13 +1,13 @@
-# HIP random number generation library (TheRock 7.14)
+# HIP random number generation library (TheRock 10.0)
 
 Name:		rocrand
-Version:	7.14.0
-Release:	2
+Version:	10.0.0
+Release:	1
 Summary:	HIP random number generation library
 License:	MIT AND BSD-3-Clause
 Group:		System/Libraries
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-7.14/rocrand.tar.gz#/rocrand-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.0/rocrand.tar.gz#/rocrand-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
